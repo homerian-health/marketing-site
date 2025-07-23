@@ -289,7 +289,6 @@ export default function Home() {
                   <div className="text-4xl font-bold">$150</div>
                   <p className="text-muted-foreground">up to 5 providers / month</p>
                 </div>
-                <p>FIX ME. Mention pricing of $250 for up to 10 providers.</p>
                 <ul className="mt-6 space-y-2">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-rose-500" />
@@ -302,13 +301,13 @@ export default function Home() {
                 </ul>
                 <Button className="mt-8">Get Started</Button>
               </div>
-                            <div className="flex flex-col rounded-xl border bg-background p-6 shadow-sm">
+              <div className="flex flex-col rounded-xl border bg-background p-6 shadow-sm">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">
                     Appointment Scheduling
                   </h3>
                   <p className="text-muted-foreground">
-                    Improve care by having your patients' clinic notes and labs before they even walk through the door.
+                    Reduce overhead by automating and optimizing appointment scheduling.
                   </p>
                 </div>
                 <div className="mt-6">
@@ -318,14 +317,18 @@ export default function Home() {
                 <ul className="mt-6 space-y-2">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-rose-500" />
-                    <span>Most Recent Clinic Notes</span>
+                    <span>Self-service scheduling for patients and providers</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-rose-500" />
-                    <span>Last 6 Months of Labs and Imaging</span>
+                    <span>Collect identification and insurance digitally</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-rose-500" />
+                    <span>Limit the type of patients and appointments each day</span>
                   </li>
                 </ul>
-                <Button className="mt-8">Get Started</Button>
+                <Button disabled className="mt-8">Coming Soon</Button>
               </div>
               {/* <div className="flex flex-col rounded-xl border bg-background p-6 shadow-sm relative">
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-rose-500 text-white px-4 py-1 rounded-full text-sm font-medium">
@@ -515,7 +518,7 @@ export default function Home() {
                 <span className="text-xl font-bold">Homerian</span>
               </div>
               <p className="text-sm text-muted-foreground">Making quality healthcare easy to provide.</p>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <Link href="#" className="text-muted-foreground hover:text-foreground">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -584,9 +587,9 @@ export default function Home() {
                     <circle cx="4" cy="4" r="2"></circle>
                   </svg>
                 </Link>
-              </div>
+              </div> */}
             </div>
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h3 className="text-lg font-semibold">Company</h3>
               <nav className="flex flex-col space-y-2">
                 <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground">
@@ -602,8 +605,8 @@ export default function Home() {
                   Blog
                 </Link>
               </nav>
-            </div>
-            <div className="space-y-4">
+            </div> */}
+            {/* <div className="space-y-4">
               <h3 className="text-lg font-semibold">Resources</h3>
               <nav className="flex flex-col space-y-2">
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
@@ -619,7 +622,7 @@ export default function Home() {
                   Webinars
                 </Link>
               </nav>
-            </div>
+            </div> */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold">Legal</h3>
               <nav className="flex flex-col space-y-2">
